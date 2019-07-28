@@ -6,7 +6,8 @@ namespace Docker.Demo.Console
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello Docker,Hello World!");
+            var yourName = System.Console.ReadLine();
+            System.Console.WriteLine($"Hello {yourName},Hello World!");
         }
     }
 }
