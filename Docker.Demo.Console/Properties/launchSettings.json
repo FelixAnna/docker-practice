@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Docker.Demo.Console": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
