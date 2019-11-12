@@ -6,6 +6,7 @@ namespace Docker.Demo.Console
     {
         static void Main(string[] args)
         {
+            new AlipayTest().Run();
             var yourName = System.Console.ReadLine();
             System.Console.WriteLine($"Hello {yourName},Hello World!");
         }
